@@ -1,0 +1,156 @@
+body {
+	color: #000;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.625em;
+	position: relative;
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Roboto", sans-serif;
+	color: #000;
+	line-height: 1.2em !important;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-weight: 600;
+}
+
+
+
+.section-gap {
+	padding: 120px 0
+}
+
+
+.main-btn {
+	background: #f42f2c;
+	line-height: 42px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: none;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	position: relative;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	position: relative
+}
+
+
+
+.overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0
+}
+
+
+
+.banner-content {
+	margin-top: 100px
+}
+
+@media (max-width: 1024px) {
+	.banner-content {
+		margin-top: 100px
+	}
+}
+.order-area {
+	background: url("background-order.jpg") no-repeat center/cover
+}
+
+.order-area .overlay-bg {
+	background: rgba(17, 22, 24, 0.75)
+}
+
+.order-area .order-right,
+.order-area .order-left {
+	position: relative
+}
+
+.order-area .order-right .form-wrap {
+	background: #fff;
+	padding: 100px 40px
+}
+
+.order-area .order-right .form-wrap .form-control {
+	border-radius: 0px;
+	margin-bottom: 10px;
+	border-color: #eeeeee;
+	font-size: 13px;
+	font-weight: 300;
+	/*padding: 0.575rem 0.75rem;*/
+	color: #999999
+}
+
+.order-area .order-right .form-wrap .form-control:focus {
+	box-shadow: none
+}
+
+.order-area .order-right .form-wrap .nice-select {
+	border: 1px solid #eeeeee
+}
+
+
+
+/*Footer Style*/
+
+.footer-bottom-wrap {
+	background: #222;
+	color: #fff
+}
+
+.footer-bottom {
+	padding: 15px 0px
+}
+
+
+
+.footer-text a,
+.footer-text i {
+	color: #f42f2c
+}
+
+
+
+/* Admin Panel Style*/
+
+.admin-panel-content {
+	background-color: #FFF;
+	padding: 20px 25px 30px;
+	margin: 0 auto 25px;
+	margin-top: 50px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+	width: 96px;
+	height: 96px;
+	margin: 0 auto 10px;
+	display: block;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
